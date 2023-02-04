@@ -1,0 +1,13 @@
+2023-01-20 22:10:53,521 INFO d.i.p.PrimeirobatchApplication [main] Starting PrimeirobatchApplication using Java 17.0.5 on Igors-MacBook-Air.local with PID 8231 (/Users/igor/Documents/Spring Batch/primeirobatch/target/classes started by igor in /Users/igor/Documents/Spring Batch/primeirobatch)
+2023-01-20 22:10:53,523 INFO d.i.p.PrimeirobatchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-20 22:10:53,785 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-01-20 22:10:53,976 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-01-20 22:10:54,091 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-01-20 22:10:54,158 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-01-20 22:10:54,202 INFO d.i.p.PrimeirobatchApplication [main] Started PrimeirobatchApplication in 0.872 seconds (JVM running for 1.228)
+2023-01-20 22:10:54,332 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=2, nome=Igor}]
+2023-01-20 22:10:54,373 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2023-01-20 22:10:54,403 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 30ms
+2023-01-20 22:10:54,421 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=2, nome=Igor}] and the following status: [COMPLETED] in 74ms
+2023-01-20 22:10:54,424 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-20 22:10:54,430 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
